@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+  --font-body: "Literata", "Iowan Old Style", Palatino, Georgia, serif;
+
+  --color-desk: #121614;
+  --color-paper: #f4f0e6;
+  --color-paper-2: #e7e1d2;
+  --color-ink: #17201a;
+  --color-muted: #3e4a40;
+  --color-sage: #1b4d32;
+  --color-line: #d5cbb8;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+}
+
+html {
+  color-scheme: light;
+  background: var(--color-paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-sage) 28%, var(--color-paper));
+  color: var(--color-ink);
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button,
+  select,
+  input {
+    font: inherit;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-sage);
+  outline-offset: 2px;
+}
+
+.kicker {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-sage);
+}
+
+.press:active {
+  transform: scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .press:active {
+    transform: none;
+  }
+}

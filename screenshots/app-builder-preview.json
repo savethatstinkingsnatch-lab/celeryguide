@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Stem to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1219,
+      "bodyTextHash": "50f3390f967fff75a828a8b7ab20017f311f9ffbe7907b4e49179f29f5ee8dd7",
+      "bodyTextPrefix": "FIELD BOOK Stem to Seed Celery, from sowing to the seed jar. USD",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Stem to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1006,
+      "bodyTextHash": "4ca61319f8b46a800e2b5656ad8cbcfec8a13ec862b0e0dd4575fe8fde500162",
+      "bodyTextPrefix": "Stem to Seed USDA zone Zone 2 Zone 3 Zone 4 Zone 5 Zone 6 Zone 7",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

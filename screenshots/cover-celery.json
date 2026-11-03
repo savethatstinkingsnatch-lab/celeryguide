@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Stem to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1230,
+      "bodyTextHash": "db4ac3eb3069d39c5e862ac490d99a1e953c986f629efbdcce96f9abffdba2b4",
+      "bodyTextPrefix": "FIELD BOOK Stem to Seed Jessica McIntosh USDA zone Zone 2 Zone 3",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/cover-celery.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Stem to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1037,
+      "bodyTextHash": "79de5eb83a59a6e63fd5c27a6a790312e5f160ca17a88c9e4cedceaa3b5c83da",
+      "bodyTextPrefix": "Stem to Seed USDA zone Zone 2 Zone 3 Zone 4 Zone 5 Zone 6 Zone 7",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/cover-celery-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/cover-celery.json"
+}

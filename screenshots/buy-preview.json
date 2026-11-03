@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Stem to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1315,
+      "bodyTextHash": "2bac918b7f171d836978ab630aa232a29d32566379fe91f216b8600b1c5728f9",
+      "bodyTextPrefix": "FIELD BOOK Stem to Seed Jessica McIntosh $1 on PayPal Buy for $1",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Stem to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1098,
+      "bodyTextHash": "2f440a509bb3c710f6d35a5f5e201ef9d1bf13a0202bd780bdb0e60b09a840fb",
+      "bodyTextPrefix": "Stem to Seed USDA zone Zone 2 Zone 3 Zone 4 Zone 5 Zone 6 Zone 7",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/buy-preview.json"
+}
