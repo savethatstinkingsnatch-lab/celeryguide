@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Stem to Seed";
+const APP_NAME = "Volume 6: Celery (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Stem to Seed by Jessica McIntosh. A field book for growing celery: sowing, USDA zones, harvest, seed saving, and companion plants.",
+          "Volume 6 of The Education Revolution, by Blue and the Awesome Dudes. A field book for growing celery: sowing, USDA zones, harvest, seed saving, and companion plants.",
       },
       { name: "theme-color", content: "#f4f0e6" },
     ],

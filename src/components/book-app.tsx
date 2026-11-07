@@ -21,7 +21,7 @@ export function BookApp() {
 
   useEffect(() => {
     const current = chapterById(lib.chapter);
-    document.title = current.id === "cover" ? "Stem to Seed" : `${current.title} · Stem to Seed`;
+    document.title = current.id === "cover" ? "Volume 6: Celery" : `${current.title} · Volume 6: Celery`;
   }, [lib.chapter]);
 
   useEffect(() => {
@@ -60,8 +60,8 @@ export function BookApp() {
         <aside className="sticky top-0 z-20 hidden h-screen flex-col border-r border-line bg-paper-2 md:flex">
           <div className="border-b border-line px-4 py-5">
             <button type="button" onClick={() => go("cover")} className="press text-left">
-              <span className="kicker">Field book</span>
-              <span className="mt-1 block font-display text-2xl tracking-tight text-ink">Stem to Seed</span>
+              <span className="kicker">The Education Revolution</span>
+              <span className="mt-1 block font-display text-2xl tracking-tight text-ink">Volume 6: Celery</span>
             </button>
             <p className="mt-2 text-sm text-muted">{edition.author}</p>
           </div>
@@ -246,10 +246,9 @@ function Cover({ onRead, onPlan }: { onRead: () => void; onPlan: () => void }) {
   const guide = zoneById(zone);
   return (
     <div className="max-w-3xl">
-      <p className="kicker">A field book for the kitchen garden</p>
+      <p className="kicker">The Education Revolution · Volume 6</p>
       <h1 className="mt-3 max-w-xl font-display text-4xl tracking-tight text-ink md:text-5xl">
-        <span className="block">Celery</span>
-        <span className="mt-1 block">Stem to Seed</span>
+        <span className="block">Volume 6: Celery</span>
       </h1>
       <p className="mt-3 text-lg text-ink">{edition.author}</p>
       <p className="mt-1 text-sm text-muted">© {edition.year}</p>

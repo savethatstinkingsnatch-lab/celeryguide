@@ -1,4 +1,4 @@
 export const edition = {
-  author: "Jessica McIntosh",
+  author: "Blue and the Awesome Dudes",
   year: "2026",
 };

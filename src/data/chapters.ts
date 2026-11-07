@@ -1,10 +1,10 @@
 export const chapters = [
   {
     id: "cover",
-    label: "Stem to Seed",
+    label: "Cover",
     kicker: "A field book",
-    title: "Celery, Stem to Seed",
-    dek: "By Jessica McIntosh. Celery from the first sowing to the seed jar.",
+    title: "Volume 6: Celery",
+    dek: "By Blue and the Awesome Dudes. Celery from the first sowing to the seed jar.",
   },
   {
     id: "contents",
